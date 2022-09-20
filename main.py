@@ -44,8 +44,8 @@ def saque():
 
 def mostrar_extrato(extrato:list):
     print('EXTRATO'.center(19, '-'))
-    for i in extrato:
-        print(i)
+    for tipo, valor in extrato:
+        print(f'{tipo} de R${valor}')
     print(f'Saldo atual: R${saldo}')
 
 
@@ -68,3 +68,5 @@ Digite: '''))
         break
     else:
         print('Você digitou um número inválido, tente novamente')
+
+print('Grato pela preferência, até a próxima!')
