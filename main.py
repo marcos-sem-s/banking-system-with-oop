@@ -7,7 +7,7 @@ def deposito():
     global saldo
 
     try:
-        valor = int(input('Digite o valor do depósito: '))
+        valor = float(input('Digite o valor do depósito: '))
     except:
         print('ERRO! Houve um problema com o tipo do valor digitado')
 
@@ -23,7 +23,7 @@ def saque():
     global saldo, saques_diarios
 
     try:
-        valor = int(input('Digite o valor do saque: '))
+        valor = float(input('Digite o valor do saque: '))
     except:
         print('ERRO! Houve um problema com o tipo do valor digitado')
 
