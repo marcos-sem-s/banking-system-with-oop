@@ -62,3 +62,21 @@ O programa deve armazenar contas em uma lista, uma conta é composta por: agênc
 
 Para vincular um usuário a uma conta, filtre a lista de usuários buscando o número do CPF informado para cada usuário da lista.
 
+
+
+## Desafio 2
+
+#### Objetivo Geral
+
+Iniciar a modelagem do sistema bancário em POO Adicionar classes para cliente e as operações bancárias: depósito e saque.
+
+#### Desafio
+
+Atualizar a implementação do sistema bancário para armazenar os dados dos clientes e contas bancárias em objetos invés de dicionários. O código deve seguir o modelo de classes UML a seguir:
+
+![Trilha Python - desafio](.\Trilha Python - desafio.png)
+
+#### Desafio extra
+
+Após concluir a modelagem das classes e a criação dos métodos, atualizar os métodos que tratam as opções do menu para funcionarem com as classes modeladas.
+

@@ -5,6 +5,7 @@ def checar_cpf(cpf: str, users: list) -> None or str:
     else:
         return cpf
 
+
 def criar_usuario(users: list) -> None:
     cpf = input('Digite seu CPF: ')
     if not checar_cpf(cpf, users):

@@ -18,10 +18,13 @@
 # with open('storage.json', 'r') as arq:
 #     over = json.load(arq)
 #     print(len(over))
-    
-mano = ['oi', 'olá']
 
-fala = mano
-fala.append('oie')
+if __name__ == '__main__':
 
-print(mano)
+    from funcionalidades_conta import Conta
+
+    conta01 = Conta()
+    while True:
+        conta01.depositar(input('Digite o valor do DEPÓSITO: R$'))
+        conta01.sacar(valor = input('Digite o valor do SAQUE: R$'))
+        conta01.mostrar_extrato()

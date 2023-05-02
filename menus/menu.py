@@ -7,13 +7,11 @@ def menu() -> None:
     extrato = []
     usuarios = []
     contas = []
-    saques_diarios = 0
-    saldo = 1000
     n_conta = 1
 
     while True:
         escolha = int(input('''
-Bem vindo ao BANCO PROENÇA
+Bem vindo ao Banco Marco&Iza
 [1] Depósito
 [2] Saque
 [3] Extrato
