@@ -64,17 +64,17 @@ Para vincular um usuário a uma conta, filtre a lista de usuários buscando o n�
 
 
 
-## Desafio 2
+## Desafio 3
 
 #### Objetivo Geral
 
-Iniciar a modelagem do sistema bancário em POO Adicionar classes para cliente e as operações bancárias: depósito e saque.
+Iniciar a modelagem do sistema bancário em POO. Adicionar classes para cliente e as operações bancárias: depósito e saque.
 
 #### Desafio
 
 Atualizar a implementação do sistema bancário para armazenar os dados dos clientes e contas bancárias em objetos invés de dicionários. O código deve seguir o modelo de classes UML a seguir:
 
-![Trilha Python - desafio](.\Trilha Python - desafio.png)
+![Trilha Python - desafio](Trilha Python - desafio.png)
 
 #### Desafio extra
 
