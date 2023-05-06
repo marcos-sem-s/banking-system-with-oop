@@ -74,7 +74,7 @@ Iniciar a modelagem do sistema bancário em POO. Adicionar classes para cliente 
 
 Atualizar a implementação do sistema bancário para armazenar os dados dos clientes e contas bancárias em objetos invés de dicionários. O código deve seguir o modelo de classes UML a seguir:
 
-![Trilha Python - desafio](Trilha Python - desafio.png)
+<p align="center"><img src="./Trilha Python - desafio.png" width="740" height="460"></p>
 
 #### Desafio extra
 
