@@ -21,10 +21,28 @@
 
 if __name__ == '__main__':
 
-    from funcionalidades_conta import Conta
+    # from funcionalidades_conta import Conta
 
-    conta01 = Conta()
-    while True:
-        conta01.depositar(input('Digite o valor do DEPÓSITO: R$'))
-        conta01.sacar(valor = input('Digite o valor do SAQUE: R$'))
-        conta01.mostrar_extrato()
+    # conta01 = Conta()
+    # while True:
+    #     conta01.depositar(input('Digite o valor do DEPÓSITO: R$'))
+    #     conta01.sacar(valor = input('Digite o valor do SAQUE: R$'))
+    #     conta01.mostrar_extrato()
+    # class Mamifero():
+    #     def __init__(self, a):
+    #         self.a = a
+
+    # class A(Mamifero):
+    #     def __init__(self, a):
+    #         super().__init__(a)
+
+    # a = A(10)
+    # print(a.a)
+    class Foo:
+        def __init__(self, a):
+            self.a = a
+
+        def foo(self) -> Foo:
+            return Foo()
+
+    a = Foo('a')
